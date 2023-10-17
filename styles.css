@@ -1,28 +1,39 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Open+Sans&display=swap');
+
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    color: #001F3F;
 }
 
 header,
 .footer {
-    background-color: #6C757D;
+    background-color: #001F3F;
     color: white;
 }
 
+.navbar-brand,
 .nav-link,
 .footer a {
-    color: white;
+    font-family: 'Roboto', sans-serif;
+    color: #00BFFF;
 }
 
 .nav-link:hover,
 .footer a:hover {
-    color: #FFD700;
+    color: #FFFFFF;
 }
 
 .card {
     border: none;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 31, 63, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 6px 8px rgba(0, 31, 63, 0.2);
 }
 
 .card img {
@@ -30,11 +41,20 @@ header,
 }
 
 .btn-primary {
-    background-color: #6C757D;
-    border-color: #6C757D;
+    background-color: #00BFFF;
+    border-color: #00BFFF;
+    color: #001F3F;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .btn-primary:hover {
-    background-color: #5a5a5a;
-    border-color: #5a5a5a;
+    background-color: #008CFF;
+    border-color: #008CFF;
+}
+
+form {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 31, 63, 0.1);
 }
