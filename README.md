@@ -64,6 +64,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [a@aiamk.com](mailto:a@aiamk.com)
+Aiam - [a@aiamk.com](mailto:a@aiamk.com)
 
 Project Link: [https://github.com/aihkas/CakeStore](https://github.com/aihkas/CakeStore)
